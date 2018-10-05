@@ -1,78 +1,98 @@
-
-/* Index Page css*/
-
-section{
-    float: left;
+.container1{
+    margin-left: 250px;
+    width: 960px;  
+    height: 80px;
 }
-
-
-#middle{
-    
-    padding: 10px;
-    margin-left: 50px;
-  margin-bottom: 20px;
-  background-color: yellow;
-  width: 960px;  
+.container2{
+    background-image: url(/assets/image/concrete_seamless.png);
+    height: 100%;
+    width: 100%;
+    border-top: #cccccc solid 2px;
 }
-
-ul{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    list-style-type: none;
-   
-}
-li{
-    margin-left: 30px;
-    margin-right: 20px;
-    float: left;
-}
-
-li a{   
-    display: block;
-    text-align: center;
-    color: black;
-}
-h1{
-    background: #4aaaa5;
-    color: white;       
-}
-
-p{
-    margin-left: 20px;
-}
-
-.aboutcon{
-    margin-left: 40px;
-    margin-top: 40px;
-    height: 850px;
-    width: 850px;
+.aboutcontainer{
+    margin-left: 60px;
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 700px;
+    width: 960px;
     background: #FFFFFF;
 
 }
 
-
-/* Contact page css*/
-.maincon{
-    margin-left: 40px;
-    margin-top: 40px;
-    height: 500px;
-    width: 500px
+h2{
+    margin-left: 25px;
+    padding-top: 25px;
+    color: #4aaaa5;
 }
 
-input[type=text], select, textarea {
+ul{
+    list-style-type: none;
+    
+}
+li{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    
+    display: inline;
+}
+li a{    
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+#yourname{
+    text-align: center;
+    width: 205px;
+    color: white;
+    background-color: #4aaaa5;
+}
+
+.detail{
+    margin-left: 25px;
+}
+
+hr {
+    
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-top: 6px solid #4aaaa5;
+ }
+
+ /* contact css*/
+ label{
+     margin-left: 20px;
+ }
+input[type=text], select, textarea {
+    width: 900px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
+    margin-left: 20px;
+    padding-right: 20px;
     resize: vertical;
 }
 
 input[type=submit] {
     background-color: #4aaaa5;
     color: white;
+    margin-left: 20px;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -83,4 +103,36 @@ input[type=submit] {
     background-color: #E0E0E0;
     padding: 20px;
     
+}
+
+/* Protfolio css*/
+
+
+
+.image{
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    
+    font-family: Arial;
+    
+}
+.imagetext{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h4{
+    text-align: center;
+    color: white;
 }
