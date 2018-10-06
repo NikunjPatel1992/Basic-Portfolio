@@ -4,7 +4,7 @@
     height: 80px;
 }
 .container2{
-    background-image: url(/assets/image/concrete_seamless.png);
+    background-image: url(../image/concrete_seamless.png);
     height: 100%;
     width: 100%;
     border-top: #cccccc solid 2px;
@@ -41,11 +41,14 @@ li a{
     text-decoration: none;
     color: black;
 }
-#yourname{
+#name{
     text-align: center;
     width: 205px;
-    color: white;
+   
     background-color: #4aaaa5;
+}
+#name1{
+    color: white;
 }
 
 .detail{
